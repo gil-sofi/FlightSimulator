@@ -1,6 +1,5 @@
 # Flight Simulator Control
 
-
 A java project we made during the semester.
 
 ## Introduction
