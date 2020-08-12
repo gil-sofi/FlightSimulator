@@ -10,8 +10,8 @@ As well as object-oriented architectures and the development of JavaFX desktop a
 
 A code where you can control an airplane simulator using a joystick or script, with a nice interface GUI.
 
-## [Server](https://github.com/danielpaz6/ServerClient_Java)
-<img src="/uml/graph.png" align="right" width="148">
+## Server
+<img src="uml/graph.png" align="right" width="148">
 As said in the main description, this project is about a general server, in which the programmer can decide how and what the server will do given a general problem and how he should solve it.
 We want to write a general server, a server that can be used again and again in various projects. To do so, he must make a fundamental and important separation: separating what changes between a project and a project, and what is not.
 We will define the functionality of the server through an interface, and each project can have another class that will implement the same functionality in a different way. In that way, we kept the Open / Close principle.
@@ -24,7 +24,7 @@ Given a graph, it could solve it,
 Using [Best-First Search](https://en.wikipedia.org/wiki/Best-first_search) algorithm ( which is already implemented in this project ) or any other search algorithm.
 
 <p align="center">
-  <img src="/uml/server_bridgepattern.png" width="600">
+  <img src="uml/server_bridgepattern.png" width="600">
 </p>
 
 So in our concrete server, given a weighted graph, it will run the search algorithm, and as a output will return the cheapest route of the target.
@@ -97,7 +97,7 @@ We can see that arithmetic expressions are supported as well, and to interpret t
 ### Command Pattern
 
 <p align="center">
-  <img src="/uml/CommandPattern.png" width="600">
+  <img src="uml/CommandPattern.png" width="600">
 </p>
 
 There is also extensive use of different commands, which use different design patterns:
@@ -115,7 +115,7 @@ So if, for example, we take a look at the loop command or if command, then we ca
 ### Our interpreter stages
 
 <p align="center">
-  <img src="/uml/interpreter.png" width="600">
+  <img src="uml/interpreter.png" width="600">
 </p>
 
 So this script-reader works in a very similar way to the interpreter of a real programming language.
@@ -142,7 +142,7 @@ In this milestone, we built the MVVM desktop application using JavaFX technology
 Here's how the app looks:
 
 <p align="center">
-  <img src="/uml/gui.png" width="600">
+  <img src="uml/gui.png" width="600">
 </p>
 
 * **Dashboard** – This is actually the application's home window, which you can access our Github
@@ -167,7 +167,7 @@ target is selected.
 ## MVVM Architecture
 
 <p align="center">
-  <img src="/uml/mvvm.png" width="600">
+  <img src="uml/mvvm.png" width="600">
 </p>
 
 So as we said, we chose to use the **MVVM architecture**.
