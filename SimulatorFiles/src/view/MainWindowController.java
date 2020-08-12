@@ -238,12 +238,12 @@ public class MainWindowController implements Initializable, View, Observer {
 	}
 	
 	public void openGitHub() {
-		getHostServices().showDocument("https://github.com/danielpaz6/");
-		getHostServices().showDocument("https://github.com/OmerNahum/");
+		getHostServices().showDocument("https://github.com/gil-sofi/");
+		
 	}
 	
 	public void learnMore() {
-		getHostServices().showDocument("https://github.com/danielpaz6/FlightSimulatorControl");
+		getHostServices().showDocument("https://github.com/gil-sofi/FlightSimulator");
 	}
 	
 	public void handleMouseEvent(MouseEvent event) {

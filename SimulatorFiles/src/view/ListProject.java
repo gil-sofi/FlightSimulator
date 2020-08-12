@@ -89,7 +89,7 @@ public class ListProject extends AnchorPane {
 				l2.setFont(f);
 				
 				
-				// <Label layoutX="285.0" layoutY="10.0" text="Daniel Paz" textFill="#074495">
+				
 				Label l3 = new Label();
 				
 				l3.setLayoutX(285.0);
